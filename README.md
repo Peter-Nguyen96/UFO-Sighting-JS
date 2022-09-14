@@ -2,6 +2,8 @@
 
 Purpose: A UFO enthusiast has compiled a database of UFO sightings around the globe in January of 2010.  This code was written to filter and display the database on a web page built on HTML with CSS elements with a javascript back end that will take user inputted search criteria and update the table in real time.  Users are allowed to search the database on date, city, state, country, and shape of UFO sighted.
 
+
+
 Results: 
 
 The database can be searched and filtered based on any combination of the following criteria: date, city, state, country, and shape. Users can enter the values on the left in the filter search section, then press enter.  The table will automatically apply all filters containing an entry.  Clearing the entries in the filter search would reset the search and display the entire database.
@@ -16,6 +18,8 @@ City: cityname - City names must be in lower case.  Spaces are allowed. Some cit
 State: ny - State must be lowercase 2 letter abbreviation
 Country: us - Country must be 2 letter lowercase abbreviation
 shape: circle - Shape must be one of: circle, light, triangle, unknown, fireball, formation, other, sphere, disk, cheveron, rectangle, cross, flash, changing, oval, cigar, teardrop, or cylinder.
+
+
 
 Summary:
 This website is fairly intuitive if the user already knows all the data that is stored in the database.  This design cannot be scaled to big data where the database can get messy.  In order for users to effectively use the filter function, they would need to know every unique element of each column.  This would require a legend.  New users may also type a valid filter incorrectly or in the incorrect format (eg. State: Oregon instead of "or").  
